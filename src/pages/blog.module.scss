@@ -1,0 +1,19 @@
+.posts {
+    list-style-type: none;
+    margin: 0;
+}
+
+.post {
+    margin: 1rem 0;
+    a {
+        background-image: linear-gradient(red, yellow);
+        color: #000000;
+        display: block;
+        padding: 1rem;
+        text-decoration: none;
+    }
+    a:hover {
+        background-image: linear-gradient(rgb(165, 0, 0), rgb(211, 211, 0));
+        color: #303030;
+    }
+}
