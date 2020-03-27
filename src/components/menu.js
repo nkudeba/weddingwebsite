@@ -44,7 +44,7 @@ const NavMenu = () => {
           activeClassName={hStyle.activeNavItem}
           to="/contact"
         >
-          Contact
+          RSVP
         </Link>
       </nav>
 

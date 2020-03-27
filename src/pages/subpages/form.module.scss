@@ -1,107 +1,6 @@
-.spacing {
-  margin: 0 auto;
-  // padding: 1rem;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-.content {
-  flex-grow: 1;
-  text-align: center;
-  color: #000000;
-  font-family: 'Times New Roman', Times, serif;
-  background: #ffffff;
-}
-
-
-.content a {color: #ffc83d;}
-.content a:visited {color: #3f2f04;
-text-decoration: none;}
-
-
-.page-title {
-  color: #000000;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 70px;
-  text-align: center;
-}
-
-.home-page-dates {
-  color: #000000;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 25px;
-  font-weight: bold;
-}
-
-.home-page-title {
-  color: #000000;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 90px;
-  font-weight: bold;
-  line-height: 1em;
-}
-
-
-.contact {
-  text-align: center;
-}
-
-.contacts {
-  height: 10vw;
-  
-  margin: 0;
-  min-height: 10em;
-  width: 50%;
-}
-
-.submit {
-  text-align: center;
-  color: yellow;
-  background-color: orange;
-}
-
-.labelCSS {
-  flex: 0 0 25%;
-  display: block;
-}
-
-.inputCSS {
-  flex: 0 0 25%;
-}
-
-.form {
-  align-items: center;
-
-}
-
-
-.inputs{
-  -moz-box-shadow: inset -3px -3px 10px #eee;
-  -webkit-box-shadow: inset -3px -3px 10px #eee;
-  box-shadow: inset -3px -3px 10px #eee;
-  border-radius: 15px;
-}
-/* Button */
-.buttons {
-  -moz-box-shadow: inset -3px -3px 10px #cc870a;
-  -webkit-box-shadow: inset -3px -3px 10px #cc870a;
-  box-shadow: inset -3px -3px 10px #cc870a;
-  background-color: #f7b31c; /* Fill color */
-  color: white; /* Text color */
-  border-radius: 15px; /* Rounded button edges */
-  font-style: italic; /* Italicize text */
-  padding: 10px 30px; /* Distance between text and border */
-}
-
-.radio {
-  column-count: 1;
-  // display: inline-flex;
-}
-
 
 .imagebg {
-	background-image: url("../images/avenue-2215317_1920.jpg");
+	background-image: url("./avenue-2215317_1920.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -143,34 +42,60 @@ text-decoration: none;}
 
 
 /* label color */
-   .inputCSS label {
+   .input-field label {
      color: #9c9c9c;
    }
    /* label focus color */
-   .inputCSS input[type=text]:focus + label {
+   .input-field input[type=text]:focus + label {
      color: #9c9c9c;
    }
    /* label underline focus color */
-   .inputCSS input[type=text]:focus {
+   .input-field input[type=text]:focus {
      border-bottom: 1px solid #9c9c9c;
      box-shadow: 0 1px 0 0 #9c9c9c;
    }
    /* valid color */
-   .inputCSS input[type=text].valid {
+   .input-field input[type=text].valid {
      border-bottom: 1px solid #9c9c9c;
      box-shadow: 0 1px 0 0 #9c9c9c;
    }
    /* invalid color */
-   .inputCSS input[type=text].invalid {
+   .input-field input[type=text].invalid {
      border-bottom: 1px solid #9c9c9c;
      box-shadow: 0 1px 0 0 #9c9c9c;
    }
    /* icon prefix focus color */
-   .inputCSS .prefix.active {
+   .input-field .prefix.active {
      color: #9c9c9c;
    }
-   
-
+   input:not([type]):focus:not([readonly]), 
+   input[type=text]:focus:not([readonly]), 
+   input[type=password]:focus:not([readonly]), 
+   input[type=email]:focus:not([readonly]), 
+   input[type=url]:focus:not([readonly]), 
+   input[type=time]:focus:not([readonly]), 
+   input[type=date]:focus:not([readonly]), 
+   input[type=datetime]:focus:not([readonly]), 
+   input[type=datetime-local]:focus:not([readonly]), 
+   input[type=tel]:focus:not([readonly]), 
+   input[type=number]:focus:not([readonly]), 
+   input[type=search]:focus:not([readonly]), 
+   textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #009ddc;
+    box-shadow: 0 1px 0 0 #009ddc;
+}
+input:not([type]):focus:not([readonly])+label, 
+input[type=text]:focus:not([readonly])+label, 
+input[type=password]:focus:not([readonly])+label, 
+input[type=email]:focus:not([readonly])+label, 
+input[type=url]:focus:not([readonly])+label, 
+input[type=time]:focus:not([readonly])+label, 
+input[type=date]:focus:not([readonly])+label, 
+input[type=datetime]:focus:not([readonly])+label, 
+input[type=datetime-local]:focus:not([readonly])+label, 
+input[type=tel]:focus:not([readonly])+label, 
+input[type=number]:focus:not([readonly])+label, 
+input[type=search]:focus:not([readonly])+label, 
 textarea.materialize-textarea:focus:not([readonly])+label {
     color: #009ddc;
 }
