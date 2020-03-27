@@ -22,7 +22,7 @@ const SPage = () => (
             fontStyle: "italic",
           }}
         >
-          Wedding
+          Ceremony
         </span>
         <br />
       Langdon Hall

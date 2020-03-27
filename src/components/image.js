@@ -19,7 +19,7 @@ const Image = props => {
   return (
     <div>
       <BackgroundImage
-        className="masthead"
+        className={"masthead"}
         fluid={data.indexImage.childImageSharp.fluid}
         fadeIn
       >
