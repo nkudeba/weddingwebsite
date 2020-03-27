@@ -3,17 +3,31 @@ import Layout from "../components/layout"
 import ContactForm from "../pages/subpages/contactform"
 import PageTitle from "../components/PageTitle"
 import Head from "../components/head"
+import "../styles/index.scss"
+import SStyle from "../components/site.module.scss"
+import hStyle from "../components/header.module.scss"
+import NavMenu from "../components/menu"
+import Banner from '../components/banner'
 
 const Title = "Contact"
 
 const contact = () => {
   return (
-    <Layout>
-        <PageTitle title={Title} />
-        <Head title={Title} />
+    <div className={SStyle.spacing}>
+      <header className={hStyle.header}>
+      <NavMenu />
+
+
+
+   
+    </header>
+      <div className={SStyle.content}>
       <ContactForm />
-    </Layout>
+      </div>
+    </div>
   )
 }
 
 export default contact
+
+
