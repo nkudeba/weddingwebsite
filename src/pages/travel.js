@@ -5,11 +5,11 @@ import PageTitle from "../components/PageTitle"
 import Head from "../components/head"
 import BackgroundImage from "gatsby-background-image"
 
-const Title = "Travel & Accommodations"
+const Title = "Accommodations"
 const Travel = () => {
   return (
-    <Layout> 
-      <PageTitle title={Title} />
+    <Layout title={Title}> 
+      {/* <PageTitle title={Title} /> */}
       <Head title={Title} />
 
       <TravelAccomodations />

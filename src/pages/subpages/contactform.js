@@ -24,7 +24,10 @@ const ContactForm = () => (
       <br />
       
       <p>
-        Please RSVP below <br />
+        {/* Please RSVP below  */}
+        Please submit your email below. If it appears that COVID-19 will impact our wedding plans and we need to move the date to our backup date of September 17, 2021, we will directly contact this email address. <br/> We apologize for the uncertainty, and any changes will be communicated to you as soon as possible.  <br /><br />
+        Formal invitation to follow.  
+        <br />
 
       </p>
     </g.Div>
@@ -44,12 +47,12 @@ const ContactForm = () => (
       <g.Input className={CStyle.inputCSS} name="_replyTo" id="_replyTo" type="email" />
       <br />
 
-      <g.Label className={CStyle.labelCSS} htmlFor="_songs">
+      {/* <g.Label className={CStyle.labelCSS} htmlFor="_songs">
         Song Requests &nbsp;
       </g.Label>
-      <g.Input className={CStyle.inputCSS} name="_songs" id="_songs" type="text" />
+      <g.Input className={CStyle.inputCSS} name="_songs" id="_songs" type="text" /> */}
       </g.Div>
-      <g.Div className={CStyle.radio}>
+      {/* <g.Div className={CStyle.radio}>
       <g.Label className={CStyle.labelCSS} htmlFor="_RSVP">
         Attending? 
       </g.Label>
@@ -57,8 +60,8 @@ const ContactForm = () => (
       <g.Input className={CStyle.inputCSS} name="_RSVP" id="_RSVP" type="radio" value="yes" checked />
       Yes &nbsp;
       <g.Input className={CStyle.inputCSS} name="_RSVP" id="_RSVP" type="radio" value="no" /> No
-      </g.Div> 
-      <g.Div>
+      </g.Div>  */}
+      {/* <g.Div>
       <g.Label className={CStyle.labelCSS} htmlFor="_food">
         Food Choice &nbsp;
       </g.Label>
@@ -69,7 +72,7 @@ const ContactForm = () => (
     <option value="chicken">Chicken</option>
   </select>
 
-    </g.Div>
+    </g.Div> */}
 
     
 

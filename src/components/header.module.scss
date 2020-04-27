@@ -2,7 +2,7 @@
   color: #ffffff;
   font-size: 1.1rem;
   font-family: 'Times New Roman', Times, serif;
-  margin-right: 1.3rem;
+  margin-right: 0.2rem;
   text-decoration: none;
   overflow-wrap: normal;
 }
@@ -31,15 +31,22 @@
     background: #ba963a;
     width: 100%;
     position: fixed;
-    z-index: 2;
+    z-index: 3;
 }
 
+.space {
+  margin-bottom: 30px;
+}
 
 .banner {
   background: #000000;
   color: white;
-  display: flow-root;
+  // display: flow-root;
   padding: 2em;
+  // background: #ba963a;
+  width: 100%;
+  position: fixed;
+  z-index: 2;
 }
 
 .title {
@@ -54,11 +61,11 @@
 }
 
 .nav-item:hover {
-  color: #4d0000;
+  color: #ffbf00;
 }
 
 .active-nav-item {
-  color: #4d3a00b3;
+  color: #e4ae0cb3;
   cursor: default;
 }
 

@@ -7,20 +7,20 @@ const NavMenu = () => {
   return (
       
       <nav className={hStyle.nav}>
-        <Link
+        <div
           className={hStyle.navItem}
           activeClassName={hStyle.activeNavItem}
           to="/"
         >
-          Home
-        </Link>
+          &nbsp;
+        </div>
 
-        <Link
+        {/* <Link
           className={hStyle.navItem}
           activeClassName={hStyle.activeNavItem}
-          to="/schedules"
+          to="/details"
         >
-          Schedule
+          Wedding Details
         </Link>
 
         <Link
@@ -28,15 +28,15 @@ const NavMenu = () => {
           activeClassName={hStyle.activeNavItem}
           to="/travel"
         >
-          Travel & Accomodations
+          Accomodations
         </Link>
 
         <Link
           className={hStyle.navItem}
           activeClassName={hStyle.activeNavItem}
-          to="/venue"
+          to="/registry"
         >
-          Venue
+          Registry
         </Link>
 
         <Link
@@ -44,8 +44,8 @@ const NavMenu = () => {
           activeClassName={hStyle.activeNavItem}
           to="/contact"
         >
-          RSVP
-        </Link>
+          Contact
+        </Link> */}
       </nav>
 
   )

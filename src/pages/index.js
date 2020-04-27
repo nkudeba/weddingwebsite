@@ -7,11 +7,11 @@ import { graphql } from "gatsby"
 // import pageQuery from "./query"
 
 
-const Title = "Home"
+const Title = "Holly and Nicolas"
 
 const IndexPage = (props) => {
   return (
-    <Layout>
+    <Layout title={Title}>
       <Head title={Title} />
       
       <Home />

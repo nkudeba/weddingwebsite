@@ -8,7 +8,53 @@ const Banner = () => {
       
       <nav className={hStyle.banner}>
           <div>
- <b>Note: </b> <br /> We are monitoring the Covid 19 pandemic and hoping everyone stays safe. The date may change accordingly.
+ <br />  <nav >
+        <Link
+          className={hStyle.navItem}
+          activeClassName={hStyle.activeNavItem}
+          to="/"
+        >
+          Home   &nbsp; | &nbsp; 
+        </Link>
+        <Link
+          className={hStyle.navItem}
+          activeClassName={hStyle.activeNavItem}
+          to="/ourstory"
+        >
+          Our Story   &nbsp; | &nbsp; 
+        </Link>
+        <Link
+          className={hStyle.navItem}
+          activeClassName={hStyle.activeNavItem}
+          to="/details"
+        >
+          Details &nbsp;| &nbsp;
+        </Link>
+
+        <Link
+          className={hStyle.navItem}
+          activeClassName={hStyle.activeNavItem}
+          to="/travel"
+        >
+          Accomodations &nbsp;| &nbsp;
+        </Link>
+
+        <Link
+          className={hStyle.navItem}
+          activeClassName={hStyle.activeNavItem}
+          to="/registry"
+        >
+          Registry &nbsp;| &nbsp;
+        </Link>
+
+        <Link
+          className={hStyle.navItem}
+          activeClassName={hStyle.activeNavItem}
+          to="/contact"
+        >
+          Contact
+        </Link>
+      </nav>
        </div>
       </nav>
 

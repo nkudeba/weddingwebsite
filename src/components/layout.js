@@ -20,7 +20,7 @@ const Layout = (props, { location }) => {
   return (
     <div className={SStyle.spacing}>
       <Head title={data.site.siteMetadata.title} />
-      <Header />
+      <Header title={props.title} />
       <div className={SStyle.content}>
         {props.children}
       </div>

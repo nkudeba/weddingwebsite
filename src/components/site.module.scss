@@ -6,6 +6,11 @@
   min-height: 100vh;
 }
 
+.story {
+  margin: 10px;
+  text-align: left;
+}
+
 .content {
   flex-grow: 1;
   text-align: center;
@@ -21,16 +26,23 @@ text-decoration: none;}
 
 
 .page-title {
-  color: #000000;
+  color: #f2eeee;
   font-family: 'Times New Roman', Times, serif;
-  font-size: 70px;
+  font-size: 50px;
   text-align: center;
 }
 
 .home-page-dates {
   color: #000000;
   font-family: 'Times New Roman', Times, serif;
-  font-size: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.home-page-backup-dates {
+  color: #000000;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
   font-weight: bold;
 }
 
@@ -101,7 +113,7 @@ text-decoration: none;}
 
 
 .imagebg {
-	background-image: url("../images/avenue-2215317_1920.jpg");
+	background-image: url("../images/langdon-hall-cambridge-ontario-country-hotel-13.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -127,14 +139,18 @@ text-decoration: none;}
 	position: relative;
 	    box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 20px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.3);
 	position: absolute;
-	top: 50%;
+	top: 60%;
   left: 50%;
   z-index: 5;
 
 	-webkit-transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
 	-o-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  
+  @media (max-width: 400px){
+    top: 60%;
+  }
 }
 
 .form-container .row {
@@ -209,7 +225,7 @@ textarea.materialize-textarea:focus:not([readonly])+label {
 		-o-transform: translate(0, 0);
 		transform: translate(0, 0);
 		width: 100%;
-		margin-top: 70px;
+		margin-top: 100px;
 		margin-bottom: 20px;
 	}
 	.form-container h3 {
@@ -234,3 +250,10 @@ textarea.materialize-textarea:focus:not([readonly])+label {
 
 }
 
+// .schedulepage {
+//   margin-left: -0px;
+//   border: 20px solid blue;
+//   color: blue;
+//   float: center;
+//   z-index:9999;
+// }

@@ -16,7 +16,7 @@ const contact = () => {
     <div className={SStyle.spacing}>
       <header className={hStyle.header}>
       <NavMenu />
-
+      <Banner/>
 
 
    

@@ -2,6 +2,7 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import BackgroundImage from "gatsby-background-image"
 import hStyle from "./header.module.scss"
+import SStyle from "../components/site.module.scss"
 
 const Image = props => {
   const data = useStaticQuery(graphql`
@@ -24,7 +25,26 @@ const Image = props => {
         fadeIn
       >
         {" "}
-        {props.children}
+        <h1 className={hStyle.titleBox}>
+          <br></br>
+        </h1>
+        <h2 className={hStyle.titleBox}>
+          <br></br>
+        </h2>
+        {/* <h2>
+          {" "}
+          <br></br>
+        </h2> */}
+
+
+        <h2 className={SStyle.pageTitle}> 
+          {props.title}
+          <br/>
+        </h2>
+              <h2>
+          {" "}
+          <br></br><br/>
+        </h2>
         <div className="black-overlay">
           <div className={hStyle.titleBox}></div>
         </div>

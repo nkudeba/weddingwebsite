@@ -9,33 +9,10 @@ const Header = props => {
   return (
     <header className={hStyle.header}>
       <NavMenu />
-      <Banner />
+      <Banner className={hStyle.space}/>
 
-
-      <Image>
-        <h1 className={hStyle.titleBox}>
-          <br></br>
-        </h1>
-        <h2 className={hStyle.titleBox}>
-          <br></br>
-        </h2>
-        <h2>
-          {" "}
-          <br></br>
-        </h2>
-        <h2>
-          {" "}
-          <br></br>
-        </h2>
-        <h2>
-          {" "}
-          <br></br>
-        </h2>
-        <h2>
-          {" "}
-          <br></br>
-        </h2>
-      </Image>
+<br/><br/>
+      <Image title={props.title} />
     </header>
   )
 }
