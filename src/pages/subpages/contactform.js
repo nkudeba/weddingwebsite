@@ -25,7 +25,9 @@ const ContactForm = () => (
       
       <p>
         {/* Please RSVP below  */}
-        Please submit your email below. If it appears that COVID-19 will impact our wedding plans and we need to move the date to our backup date of September 17, 2021, we will directly contact this email address. <br/> We apologize for the uncertainty, and any changes will be communicated to you as soon as possible.  <br /><br />
+        In the event that COVID-19 impacts our wedding plans, our celebration will be rescheduled to our backup date of September 17, 2021. Please submit your email address below so that any change of plans can be communicated to you as soon as possible.
+
+        <br /><br />
         Formal invitation to follow.  
         <br />
 

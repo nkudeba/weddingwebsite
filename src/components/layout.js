@@ -19,6 +19,7 @@ const Layout = (props, { location }) => {
 
   return (
     <div className={SStyle.spacing}>
+      <link rel="icon" href="/favicon.ico" />
       <Head title={data.site.siteMetadata.title} />
       <Header title={props.title} />
       <div className={SStyle.content}>
