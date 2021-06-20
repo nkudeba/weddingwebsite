@@ -2,6 +2,10 @@ import React from "react"
 import { Link } from "gatsby"
 import hStyle from "./header.module.scss"
 import { Menu } from "glamorous"
+import Timer from "./timer"
+
+
+
 const NavMenu = () => {
 
   return (
@@ -11,8 +15,7 @@ const NavMenu = () => {
           className={hStyle.navItem}
           activeClassName={hStyle.activeNavItem}
           to="/"
-        >
-          &nbsp;
+        ><Timer/>
         </div>
 
         {/* <Link
