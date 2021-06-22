@@ -4,7 +4,7 @@ import SStyle from "../../components/site.module.scss"
 const SPage = () => (
 
     <div className={SStyle.schedulepage}>
-
+<br/><br/>
       {/* <br /> */}
       <h4
         style={{
@@ -12,10 +12,10 @@ const SPage = () => (
           fontFamily: "Times New Roman"
         }}
       >
-        September 18, 2020
+        September 17, 2021
       </h4>
       <p>
-      Ceremony and reception to take place at Langdon Hall on September 18, 2020 with a backup option of September 17, 2021. <br/>
+      Ceremony and reception to take place at Langdon Hall on September 17, 2021 <br/>
 Further ceremony and reception details and timing to follow. Please check back. <br/><br/>
 <b>Langdon Hall</b>
 <br/>

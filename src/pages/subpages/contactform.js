@@ -23,20 +23,17 @@ const ContactForm = () => (
     
       <br />
       
-      <p>
+      <p style={{fontSize: 1.2 + 'em'}}>
         {/* Please RSVP below  */}
-        In the event that COVID-19 impacts our wedding plans, our celebration will be rescheduled to our backup date of September 17, 2021. Please submit your email address below so that any change of plans can be communicated to you as soon as possible.
+        Formal invitations to be sent out shortly. Once you receive your invitation, please RSVP here. Langdon Hall will send an email 2 weeks prior to the wedding to provide you with a menu selection.
 
-        <br /><br />
-        Formal invitation to follow.  
         <br />
 
       </p>
     </g.Div>
    
-    <g.Div 
-    >
-      <g.Label className={CStyle.labelCSS}  htmlFor="name">
+    {/* <g.Div  > */}
+      {/* <g.Label className={CStyle.labelCSS}  htmlFor="name">
         Name &nbsp;
       </g.Label>
       <g.Input className={CStyle.inputCSS} name="name" id="name" type="text" />
@@ -47,13 +44,13 @@ const ContactForm = () => (
         Email &nbsp;
       </g.Label>
       <g.Input className={CStyle.inputCSS} name="_replyTo" id="_replyTo" type="email" />
-      <br />
+      <br /> */}
 
       {/* <g.Label className={CStyle.labelCSS} htmlFor="_songs">
         Song Requests &nbsp;
       </g.Label>
       <g.Input className={CStyle.inputCSS} name="_songs" id="_songs" type="text" /> */}
-      </g.Div>
+      {/* </g.Div> */}
       {/* <g.Div className={CStyle.radio}>
       <g.Label className={CStyle.labelCSS} htmlFor="_RSVP">
         Attending? 
@@ -78,7 +75,7 @@ const ContactForm = () => (
 
     
 
-    <g.Label className={CStyle.labelCSS} display="block" htmlFor="message">
+    {/* <g.Label className={CStyle.labelCSS} display="block" htmlFor="message">
       Message
     </g.Label>
     <g.Textarea className={CStyle.materializeTextarea} 
@@ -89,7 +86,7 @@ const ContactForm = () => (
     />
 <g.Label className={CStyle.labelCSS} display="block" htmlFor="message">
 <button className={CStyle.submitbtn} type="submit">Submit</button>
-    </g.Label>
+    </g.Label> */}
     </div>
                 </div>
   </g.Form>
