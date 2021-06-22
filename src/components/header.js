@@ -11,7 +11,7 @@ const Header = props => {
       <NavMenu />
       <Banner className={hStyle.space}/>
 
-<br/><br/>
+<br/><br/><br/>
       <Image title={props.title} />
     </header>
   )

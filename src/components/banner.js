@@ -52,7 +52,7 @@ const Banner = () => {
           activeClassName={hStyle.activeNavItem}
           to="/contact"
         >
-          Contact
+          RSVP
         </Link>
       </nav>
        </div>
