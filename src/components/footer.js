@@ -1,6 +1,7 @@
 import React from "react"
 import { Link, graphql, useStaticQuery } from "gatsby"
 import fStyle from "./footer.module.scss"
+import Timer from "./timer"
 
 const Footer = () => {
   const data = useStaticQuery(graphql`
@@ -14,9 +15,8 @@ const Footer = () => {
   `)
   return (
     <footer className={fStyle.footer}>
-      <p>
-        {data.site.siteMetadata.author} September 18, 2020 Langdon Hall
-      </p>43
+      <Timer/>
+     
     </footer>
   )
 }

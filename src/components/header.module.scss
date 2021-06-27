@@ -1,10 +1,15 @@
 .nav-item {
-  color: #ffffff;
+  color: black;
   font-size: 1.1rem;
   font-family: 'Times New Roman', Times, serif;
   margin-right: 0.2rem;
   text-decoration: none;
   overflow-wrap: normal;
+}
+
+.image {
+  z-index: 1 !important;
+  position: sticky;
 }
 
 @media (min-height: 300px) {
@@ -17,6 +22,8 @@
 
 .header {
   padding: 0rem 0 0rem;
+  margin-top: -2rem;
+  background-color: white;
 
   // position: sticky;
   // background-color: fade-in($color: #debd5c, $amount: 0.1);
@@ -38,14 +45,31 @@
   margin-bottom: 30px;
 }
 
+.names{
+  position: fixed;
+  padding-top: 2rem;
+  background-color: white;
+  z-index: 2;
+  font-family: 'Times New Roman', Times, serif;
+  // padding: 1em;
+  width: 100%;
+  font-size: 2.5em;
+}
+
+.names2{
+  padding-bottom: 0.5em;
+  background-color: white;
+  z-index: 2;
+}
+
 .banner {
-  background: #000000;
-  color: white;
+  color: black;
   // display: flow-root;
-  padding: 2em;
+  padding: 0em;
   // background: #ba963a;
   width: 100%;
   position: fixed;
+  background-color: white;
   z-index: 2;
 }
 

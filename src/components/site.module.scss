@@ -12,7 +12,7 @@
 }
 
 .content {
-  flex-grow: 1;
+ 
   text-align: center;
   padding-left: 10%;
   padding-right: 10%;
@@ -21,14 +21,35 @@
   background: #ffffff;
 }
 
-
 .content a {color: #ffc83d;}
 .content a:visited {color: #3f2f04;
 text-decoration: none;}
 
+.row {
+  display: flex;
+}
+
+
+.column {
+  flex: 30%;
+  padding: 10px;
+
+}
+.column2 {
+  flex: 70%;
+  padding: 10px;
+}
+
 
 .page-title {
-  color: #f2eeee;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+.page-title-langdon {
+  color: black;
   font-family: 'Times New Roman', Times, serif;
   font-size: 50px;
   text-align: center;

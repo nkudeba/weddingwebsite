@@ -15,7 +15,9 @@ const NavMenu = () => {
           className={hStyle.navItem}
           activeClassName={hStyle.activeNavItem}
           to="/"
-        ><Timer/>
+        >
+        
+          
         </div>
 
         {/* <Link

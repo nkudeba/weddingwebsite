@@ -8,11 +8,12 @@ import Banner from "./banner"
 const Header = props => {
   return (
     <header className={hStyle.header}>
-      <NavMenu />
+        
+     
       <Banner className={hStyle.space}/>
 
-<br/><br/><br/>
-      <Image title={props.title} />
+<br/><br/><br/><br/>
+  
     </header>
   )
 }

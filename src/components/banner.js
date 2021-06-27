@@ -5,10 +5,11 @@ import { Menu } from "glamorous"
 const Banner = () => {
 
   return (
-      
+    <> <br/>
+      <div className={hStyle.names}>
+        <div className={hStyle.names2}> Holly and Nicolas </div>
       <nav className={hStyle.banner}>
-          <div>
- <br />  <nav >
+          <div> <nav >
         <Link
           className={hStyle.navItem}
           activeClassName={hStyle.activeNavItem}
@@ -57,7 +58,8 @@ const Banner = () => {
       </nav>
        </div>
       </nav>
-
+      </div>
+      </>
   )
 }
 

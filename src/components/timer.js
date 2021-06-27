@@ -47,8 +47,8 @@ function Timer() {
   });
   return (
     <div>
-
-      {timerComponents.length ? <span>{timerComponents} until we say "I DO!"</span> : <span>We do!</span>} 
+<center>
+      {timerComponents.length ? <span>{timerComponents} until we say "I DO!"</span> : <span>We do!</span>} </center>
     </div>
   );
 }

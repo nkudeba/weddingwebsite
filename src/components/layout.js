@@ -21,11 +21,11 @@ const Layout = (props, { location }) => {
     <div className={SStyle.spacing}>
       <link rel="icon" href="/favicon.ico" />
       <Head title={data.site.siteMetadata.title} />
-      <Header title={props.title} />
+      <Header />
       <div className={SStyle.content}>
         {props.children}
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   )
 }
