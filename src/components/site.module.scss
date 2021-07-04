@@ -9,6 +9,7 @@
 .story {
   margin: 10px;
   text-align: left;
+  font-size: 1.2em;
 }
 
 .content {
@@ -21,25 +22,127 @@
   background: #ffffff;
 }
 
+
+.background {
+  background-color: #b5c9c1;
+}
+
 .content a {color: #ffc83d;}
 .content a:visited {color: #3f2f04;
 text-decoration: none;}
 
 .row {
   display: flex;
+  @media only screen and (max-width: 900px) {
+    display: block;
+    
+  }
 }
 
 
 .column {
   flex: 30%;
   padding: 10px;
+  @media only screen and (max-width: 1200px) {
+    flex: 50%;
+  }
+  @media only screen and (max-width: 900px) {
+    display: none;
+  }
 
 }
 .column2 {
   flex: 70%;
   padding: 10px;
+  @media only screen and (max-width: 1200px) {
+    padding: 0px;
+  }
+}
+.column2adjust {
+  flex: 70%;
+  padding: 10px;
+  margin-top: 130px;
+  @media only screen and (max-width: 1200px) {
+    margin-top: -40px;
+    padding: 0px;
+  }
 }
 
+.column2adjust2 {
+  flex: 70%;
+  padding: 10px;
+  margin-top: 30px;
+  @media only screen and (max-width: 1200px) {
+    margin-top: 20px;
+    padding: 0px;
+  }
+}
+
+
+.hidden {
+  display: none;
+}
+
+.hide1200 {
+  @media only screen and (max-width: 1200px) {
+    display: none;
+  }
+}
+
+.show1200 {
+  @media only screen and (min-width: 1200px) {
+    display: none;
+  }
+}
+
+.footerblock {
+  display:block;
+}
+
+.storytitle {
+  @media only screen and (max-width: 900px) {
+    display: none;
+  }
+}
+
+.storytitlemobile {
+  @media only screen and (min-width: 900px) {
+    display: none;
+  }
+}
+
+
+.imageshadow {
+  box-shadow: -40px -40px 0px 1px #b5c9c1;
+  @media only screen and (max-width: 600px) {
+    box-shadow: -20px -20px 0px 1px #b5c9c1;
+  }
+}
+
+.imageshadowleft {
+  box-shadow: -40px -40px 0px 1px #b5c9c1;
+  margin-right: 40px;
+  @media only screen and (max-width: 600px) {
+    box-shadow: -20px -20px 0px 1px #b5c9c1;
+  }
+}
+
+.imageshadowadjust {
+  box-shadow: -40px -40px 0px 1px #b5c9c1;
+  @media only screen and (max-width: 600px) {
+    box-shadow: -20px -20px 0px 1px #b5c9c1;
+  }
+  
+}
+.imageshadow2 {
+  box-shadow: 40px 40px 0px 1px #b5c9c1;
+  @media only screen and (max-width: 900px) {
+      box-shadow: -40px -40px 0px 1px #b5c9c1;
+  }
+  @media only screen and (max-width: 600px) {
+    box-shadow: -20px -20px 0px 1px #b5c9c1;
+  }
+}
 
 .page-title {
   color: white;
@@ -59,7 +162,8 @@ text-decoration: none;}
   color: #000000;
   font-family: 'Times New Roman', Times, serif;
   font-size: 35px;
-  font-weight: bold;
+  line-height: 1.2;
+  // font-weight: bold;
 }
 
 .home-page-backup-dates {
@@ -67,6 +171,15 @@ text-decoration: none;}
   font-family: 'Times New Roman', Times, serif;
   font-size: 20px;
   font-weight: bold;
+}
+
+.home-page-text {
+  font-size:1.2em;
+}
+
+.home-page-text-styled {
+  font-size:1.2em;
+  font-family: 'Brush Script MT'
 }
 
 .home-page-title {
@@ -99,12 +212,24 @@ text-decoration: none;}
 .labelCSS {
   flex: 0 0 25%;
   display: block;
+  font-size: 1.2em;
+}
+
+.labelCSS2 {
+  flex: 0 0 25%;
+  display: block;
+  // font-size: 1.2em;
 }
 
 .inputCSS {
-  flex: 0 0 25%;
+  // flex: 50% 50% 5%;
+  font-size: 1.2em;
 }
-
+.inputCSS2 {
+  // flex: 50% 50% 5%;
+  font-size: 1.2em;
+  width: 50vw;
+}
 .form {
   align-items: center;
 
@@ -131,6 +256,7 @@ text-decoration: none;}
 
 .radio {
   column-count: 1;
+  font-size: 1.2em;
   // display: inline-flex;
 }
 
@@ -212,6 +338,7 @@ text-decoration: none;}
 
 textarea.materialize-textarea:focus:not([readonly])+label {
     color: #009ddc;
+    font-size: 1.2em;
 }
 .form-container .btn {
     background-color: #009ddc;

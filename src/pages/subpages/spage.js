@@ -1,34 +1,31 @@
 import React from "react"
 import SStyle from "../../components/site.module.scss"
 import Image from "../../components/langdonimage"
+import { StaticImage } from "gatsby-plugin-image"
 
 const SPage = () => (
 
     <div className={SStyle.schedulepage}>
 <br/><br/>
       {/* <br /> */}
-      <Image ></Image>
-      <h4
-        style={{
-          textDecoration: "none",
-          fontFamily: "Times New Roman"
-        }}
-      ><br/>
-        September 17, 2021
-      </h4>
-      <p>
-      Ceremony and reception to take place at Langdon Hall on September 17, 2021 <br/>
-      Experience Canada's 4th best restaurant and Ontario's only FIVE-DIAMOND DINING restaurant <br/>
-Further ceremony and reception details and timing to follow. Please check back. <br/><br/>
-<b>Langdon Hall</b>
-<br/>
-1 Langdon Drive,
-<br/> Cambridge, Ontario.
+      <div className={SStyle.hide1200}>   <Image  /></div>
+      <div className={SStyle.show1200}>   <StaticImage src="../../images/langdon-hall-cambridge-ontario-country-hotel-13.jpg" alt="Langdon Hall" /></div>
+    <br/> <br/>
+    <p className={SStyle.homePageTextStyled}>
+    
+  <b> Friday, September 17th, 2021</b>  <br/><br/>
+At five o’clock in the afternoon <br/><br/>
+Guests are kindly asked to arrive thirty minutes prior to the ceremony <br/><br/>
+Cocktail hour and reception to follow <br/><br/>
+Langdon Hall <br/><br/>
+ 1 Langdon Drive, Cambridge, Ont. <br/>
 
-      </p>
-      <p>
-      Directions to the venue can be found on{" "}
-      <a href="https://www.google.com/maps?q=langdon+hall&um=1&ie=UTF-8&sa=X&ved=2ahUKEwiboIGWhPDnAhXRZc0KHf0FABMQ_AUoAnoECA4QBA">Google Maps</a>.
+ 
+
+      </p><br/><br/><br/><br/>
+      <p className={SStyle.homePageText}>
+     <i> Directions to the venue can be found {" "}
+      <a href="https://www.google.com/maps?q=langdon+hall&um=1&ie=UTF-8&sa=X&ved=2ahUKEwiboIGWhPDnAhXRZc0KHf0FABMQ_AUoAnoECA4QBA">here</a>.</i>
     </p>
     
     </div>

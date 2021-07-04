@@ -1,6 +1,6 @@
 .nav-item {
   color: black;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   font-family: 'Times New Roman', Times, serif;
   margin-right: 0.2rem;
   text-decoration: none;
@@ -23,6 +23,7 @@
 .header {
   padding: 0rem 0 0rem;
   margin-top: -2rem;
+  margin-bottom: 9rem;
   background-color: white;
 
   // position: sticky;
@@ -42,7 +43,7 @@
 }
 
 .space {
-  margin-bottom: 30px;
+  margin-bottom: 30;
 }
 
 .names{
@@ -54,12 +55,20 @@
   // padding: 1em;
   width: 100%;
   font-size: 2.5em;
+  @media only screen and (max-width: 340px) {
+    display: block;
+    padding-top: 0.5em;
+  }
 }
 
 .names2{
   padding-bottom: 0.5em;
   background-color: white;
   z-index: 2;
+  @media only screen and (max-width: 340px) {
+    display: block;
+    
+  }
 }
 
 .banner {
@@ -71,6 +80,9 @@
   position: fixed;
   background-color: white;
   z-index: 2;
+  @media (max-height: 340px) {
+     padding: -1em;
+      }
 }
 
 .title {

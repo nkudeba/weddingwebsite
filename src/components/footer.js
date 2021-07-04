@@ -2,6 +2,7 @@ import React from "react"
 import { Link, graphql, useStaticQuery } from "gatsby"
 import fStyle from "./footer.module.scss"
 import Timer from "./timer"
+import { StaticImage } from "gatsby-plugin-image"
 
 const Footer = () => {
   const data = useStaticQuery(graphql`
@@ -15,7 +16,7 @@ const Footer = () => {
   `)
   return (
     <footer className={fStyle.footer}>
-      <Timer/>
+     <Timer/>
      
     </footer>
   )

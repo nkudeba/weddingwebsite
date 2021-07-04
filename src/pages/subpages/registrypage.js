@@ -1,5 +1,6 @@
 import React from 'react'
 import { StaticImage } from "gatsby-plugin-image"
+import SStyle from '../../components/site.module.scss'
 
 const VenuePage = () => (
   <div>
@@ -23,7 +24,9 @@ const VenuePage = () => (
 
 
   <br/>
-</p>
+</p><div className={SStyle.hidden}>
+
+</div>
 </div>
 )
 

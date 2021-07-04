@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "./timer.css";
+import { StaticImage } from "gatsby-plugin-image"
+import SStyle from "./site.module.scss"
+
 
 var countDownDate = new Date("September 17, 2021 17:00:00").getTime();
 
@@ -46,9 +49,9 @@ function Timer() {
     );
   });
   return (
-    <div>
+    <div className={SStyle.footerblock}>
 <center>
-      {timerComponents.length ? <span>{timerComponents} until we say "I DO!"</span> : <span>We do!</span>} </center>
+ {timerComponents.length ? <span>{timerComponents} until we say "I DO!"</span> : <span>We do!</span>} </center>
     </div>
   );
 }

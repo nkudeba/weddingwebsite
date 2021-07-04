@@ -9,12 +9,13 @@ import hStyle from "../components/header.module.scss"
 import NavMenu from "../components/menu"
 import Banner from '../components/banner'
 
-const Title = "Contact"
+const Title = "RSVP"
 
 const contact = () => {
   return (
     <div className={SStyle.spacing}>
       <header className={hStyle.header}>
+      <Head title={Title} />
       <NavMenu />
       <Banner/>
 

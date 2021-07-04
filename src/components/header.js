@@ -12,7 +12,7 @@ const Header = props => {
      
       <Banner className={hStyle.space}/>
 
-<br/><br/><br/><br/>
+
   
     </header>
   )

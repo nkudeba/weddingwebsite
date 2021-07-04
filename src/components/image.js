@@ -23,7 +23,7 @@ const Image = props => {
         className={"masthead"}
         fluid={data.indexImage.childImageSharp.fluid}
         fadeIn
-      ><br/><br/><br/><br/><br/>
+      ><br/><br/><br/><br/><br/><br/>
         {" "}
         <h1 className={hStyle.titleBox}>
           <br></br>
@@ -43,7 +43,7 @@ const Image = props => {
         </h2>
               <h2>
           {" "}
-          <br></br><br/><br/>
+          <br></br><br/>
         </h2>
         <div className="black-overlay">
           <div className={hStyle.titleBox}></div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import SStyle from '../../components/site.module.scss'
 
 
 const generateListOfHotels = arrayOfHotels =>
@@ -10,12 +11,12 @@ const generateListOfHotels = arrayOfHotels =>
   ));
 
 const TravelAccommodations = () => (
-  <div>
+  <div >
  <br/><br/>
 
 
-    <p>
-    For your convenience we have reserved a block of rooms at the following hotels. If making your reservation by phone, please reference the 'Shoemaker & Kudeba Wedding' to receive the discounted rate. If reserving online, please follow the appropriate link below: <br/><br/>
+ <p className={SStyle.homePageText}>
+    For your convenience we have reserved a block of rooms at the following hotels. If making your reservation by phone, please reference the 'Shoemaker & Kudeba Wedding' to receive the discounted rate. <br/><br/>
        <a href="https://reservations.travelclick.com/12264?groupID=2993359"> <strong>Cambridge Hotel and Conference Centre </strong> </a> <br/>
       
 
@@ -23,6 +24,7 @@ const TravelAccommodations = () => (
 Cambridge, ON <br/>
 519-622-1505 
 <br/>      Book by August 18, 2021 for discounted rate
+<br/><i>**Note: Reservations may be made by phone, or by clicking the link above..</i>
 <br/><br/>
 
        
@@ -31,13 +33,15 @@ Cambridge, ON <br/>
 Cambridge, ON <br/>
 519-653-2690 <br/>
 Book by August 1, 2021 for discounted rate
+<br/> <i>**Note: To get the discounted rate, you will need to book by phone. </i>
 <br/><br/>
 <a href="https://www.langdonhall.ca"> <strong>Langdon Hall Country House Hotel and Spa</strong></a> 
     <br/>
     1 Langdon Dr,<br/>
 Cambridge, ON <br/>
 519-740-2100 <br/>
-Book by August 3, 2021 for block room
+Book by August 3, 2021 for discounted rate
+<br/> <i>**Note: To get the discounted rate, you will need to book by phone. </i>
 </p>
   </div>
 );

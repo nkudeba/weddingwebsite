@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import hStyle from "./header.module.scss"
+import SStyle from "./site.module.scss"
 import { Menu } from "glamorous"
 const Banner = () => {
 
@@ -57,6 +58,7 @@ const Banner = () => {
         </Link>
       </nav>
        </div>
+       <br/> <div className={SStyle.storytitle}><br/></div>
       </nav>
       </div>
       </>
